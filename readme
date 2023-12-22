@@ -1,0 +1,49 @@
+Assignment-2: Gene Expression Analysis and Interpretation
+This repository contains a script for performing gene expression analysis and interpretation of HER2-amplified breast cancer data from the TCGA- Invasive Breast Carcinoma PanCancer Atlas. The script is designed as a guide for an assignment and includes various steps, each contributing to the comprehensive analysis of the data.
+
+Table of Contents
+Introduction
+Methods
+Results
+Differential Expression Analysis HER2 Amplified and Not Amplified
+Top 10 Differentially Expressed Genes Ranked by Fold Change
+Pathway Enrichment
+PCA Plot
+Gene Expression Cluster
+Discussion
+References
+Introduction
+Breast cancer is a complex disease, and understanding specific molecular alterations, such as HER2 amplification, is crucial for developing targeted therapies. This section reviews relevant literature on breast cancer and the role of HER2 amplification.
+
+Methods
+The analysis utilizes the TCGA- Invasive Breast Carcinoma PanCancer Atlas data from cbioportal. The script covers data preprocessing, including extraction and cleaning, and subsequent analyses such as differential expression, pathway enrichment, PCA, and gene expression clustering.
+
+Results
+Differential Expression Analysis HER2 Amplified and Not Amplified
+The analysis identifies genes differentially expressed in HER2-amplified breast cancers compared to non-amplified cases.
+
+Top 10 Differentially Expressed Genes Ranked by Fold Change
+Discussion of the top 10 genes based on fold change and their potential biological significance.
+
+Pathway Enrichment
+Analysis of enriched pathways, with an emphasis on those associated with HER2 amplification.
+
+PCA Plot
+Visualization of principal components to explore the separation of samples based on ERBB2 amplification.
+
+Gene Expression Cluster
+Identification and visualization of gene expression clusters using hierarchical clustering and PCA.
+
+Discussion
+Summarization of key findings, interpretation of biological implications, alignment with existing literature, and addressing limitations and potential future directions.
+
+References
+A bibliography of works used to support the results and introduction.
+
+Instructions for Running the Script
+Download the TCGA- Invasive Breast Carcinoma PanCancer Atlas data from cbioportal.
+Set the working directory in the script to your local directory.
+Execute the script step by step.
+Note: This README provides an overview of the script structure and its components. For detailed information on each part of the code, please refer to the script file.
+
+For any inquiries or issues, please contact the repository owner: UnchartedParadox.
